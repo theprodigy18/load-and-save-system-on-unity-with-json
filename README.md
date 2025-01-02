@@ -21,5 +21,5 @@ The system serializes your data into JSON format, encrypt it, and writes it to a
 The system reads the JSON file, decrypt the data, deserializes the data, and applies it back to the game objects. For complex data like sprites, it retrieves the sprite by its name.
 
 ### 3. Tips for Complex Data
-**Sprites**: Save their names as strings and load them via Resources.Load<Sprite>().
-**Transforms**: Save positions, rotations, or scales as array or list of float.
+- **Sprites**: Save their names as strings and load them via Resources.Load<Sprite>().
+- **Transforms**: Save positions, rotations, or scales as array or list of float.
